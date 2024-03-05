@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -8,36 +8,6 @@
   </head>
   <body>
     <div id="root"></div>
-
-    <script type="text/javascript">
-      // DOM Manipulation
-      //  Select the div element with 'app' id
-      const app = document.getElementById("root");
-
-      // Create a new h1 element
-      const header = document.createElement("h1");
-
-      // Create a new text node for the h1 element
-      const text = "DOM Manipulation using JavaScript";
-      const textNode = document.createTextNode(text);
-
-      // Append the text node to the h1 element
-      header.appendChild(textNode);
-
-      // Append the h1 element to the root div element (app)
-      app.appendChild(header);
-
-      /*
-       Imperative vs. declarative programming
-        - Imperative: How to do something
-        - Declarative: What to do
-        - The code above is a good example of imperative programming.
-        - You're writing the steps for how the user interface should be updated
-        - React: A declarative UI library
-        - You can tell React what you want to happen to the user interface,
-           and React will figure out the steps of how to update the DOM under the hood.
-
-      */
-    </script>
+    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
