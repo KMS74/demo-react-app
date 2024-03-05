@@ -1,0 +1,40 @@
+.counterContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 32px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e1e4e8;
+}
+
+.counterValue {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.counterControls {
+  display: flex;
+  gap: 10px;
+}
+
+.counterInput {
+  padding: 8px;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #e1e4e8;
+  font-size: 1em;
+}
+
+.incrementBtn {
+  background-color: rgb(22, 167, 22);
+}
+.decrementBtn {
+  background-color: rgb(175, 43, 43);
+}
+
+.restBtn {
+  background-color: rgb(49, 49, 189);
+}
