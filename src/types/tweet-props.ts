@@ -8,7 +8,7 @@ export type TweetImage = {
   description: string;
 };
 
-export type TweetProps = {
+export type TweetCardProps = {
   author: TweetAuthor;
   text: string;
   image: TweetImage;
