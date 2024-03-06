@@ -20,7 +20,7 @@ export const updateTodo = async (updatedTodo: Partial<Todo>): Promise<Todo> => {
 };
 
 
-export const deleteTodo = async (id: number) => {
+export const deleteTodo = async (id: string) => {
   const response = await axios.delete(`${BASE_URL}/${id}`);
   return response.data;
 };
