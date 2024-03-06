@@ -44,6 +44,7 @@
 .title {
   flex-grow: 1;
   font-size: 1.2rem;
+  text-align: left;
 }
 
 .todoTitleWrapper {
@@ -54,6 +55,9 @@
 
 .actions {
   margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
 .editInput {
