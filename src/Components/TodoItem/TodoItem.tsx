@@ -74,6 +74,7 @@ const TodoItem: React.FC<Props> = ({ todo, onDelete, onUpdate }) => {
               type="checkbox"
               checked={todo.completed}
               className={styles.checkbox}
+              onChange={handleToggleComplete}
             />
             <span
               className={`${styles.title} ${
