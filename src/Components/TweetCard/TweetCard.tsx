@@ -1,7 +1,7 @@
 import { TweetCardProps } from "../../types/tweet-props";
 import styles from "./TweetCard.module.css";
 
-const Tweet = (props: TweetCardProps) => {
+const TweetCard = (props: TweetCardProps) => {
   // props destructuring
   const { author, image, date, text } = props;
 
@@ -26,4 +26,4 @@ const Tweet = (props: TweetCardProps) => {
   );
 };
 
-export default Tweet;
+export default TweetCard;
